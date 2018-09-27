@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+</head>
+<body>  
+    <a href="shop.html">跳转到购物车</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>商品名称</th>
+                <th>单价</th>
+                <th>购买数量</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody class="tbox">
+        </tbody>
+    </table>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+        // 完成购物车页面间值的传递方式
+        // 1. cookie  // 不设置时间，会话结束消失， 发送ajax的时候，死也跟着它
+        // 2. 把数据添加到数据库
+        // 3. localStorage, sessionStorage /生命周期为永久， 浏览器关闭即结束
+        // 注意： 存储的值只能是字符串
+
+    </script>
+</body>
+</html>
